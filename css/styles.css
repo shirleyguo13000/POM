@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Kranky&family=Rock+3D&display=swap");
+
+body {
+  font-family: Gamja Flower;
+  font-size: 1.4rem;
+  color: #734511;
+  /*   color: #99A3A1; altnerate option */
+  background-color: #ebdac0;
+}
+
+h1 {
+  font-family: "Rock 3D";
+  font-size: 2.2rem;
+  color: #734511;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+}
+
+h2,
+h4 {
+  font-family: Kranky;
+  color: #4d2e0b;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.2rem;
+  background-color: #caa163;
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+
+p {
+  font-style: bold;
+  /*   font-size: 1.4rem; */
+  /*   background-color: #dbd5cc; */
+}
+
+a:hover {
+  background-color: #859996;
+}
+
+/* ul {
+  background-color: #dbd5cc;
+} */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+}
+
+/* header{
+  text-align: center;
+  background-color: #A1A9A1;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  padding: 1rem;
+} */
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  /*   background-color: #dbd5cc; */
+}
+
+nav a {
+  text-decoration: none;
+  background-color: #caa163;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.card {
+  border: 2px solid #caa163;
+  padding: 0.5rem;
+}
+
+@media (min-width: 770px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1055px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.button {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #5d3d17;
+  display: block;
+}
+
+.button:hover {
+  background-color: #caa163;
+  border-radius: 5px;
+}
