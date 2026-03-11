@@ -105,6 +105,7 @@ nav a {
 .card {
   border: 2px solid #caa163;
   padding: 0.5rem;
+  border-radius: 10px;
 }
 
 @media (min-width: 770px) {
